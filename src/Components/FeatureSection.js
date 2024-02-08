@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function FeatureSection() {
   return (
@@ -7,8 +7,10 @@ function FeatureSection() {
         <h2 className="text-5xl font-bold mb-2">Work smarter with powerful</h2>
         <h2 className="text-5xl font-bold mb-8">striking features</h2>
 
-
-        <p className="text-base text-gray-600 mb-1">We made sure that anyone who visits it once will have no reason to look</p>
+        <p className="text-base text-gray-600 mb-1">
+          We made sure that anyone who visits it once will have no reason to
+          look
+        </p>
         <p className="text-base text-gray-600 mb-8">anywhere else.</p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -35,28 +37,27 @@ function FeatureSection() {
           <FeatureCard
             title="Powerful Admin"
             description="QuickJob comes with an extended powerful admin panel, which allows you to manage all jobs, companies, employers and many more – with few clicks."
-            // image={PowerfulAdminImage}
           />
         </div>
       </div>
     </div>
-
-// import PowerfulAdminImage from './powerful-admin.png';
-
-
-  )
+  );
 }
 
-
 const FeatureCard = ({ title, description, image }) => {
-    return (
-      <div className="bg-white p-6 rounded-lg relative ">
-        {image && <img src={image} className="w-8 h-8 mx-auto absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Feature Icon" />}
-        <h3 className="text-xl font-bold mb-4">{title}</h3>
-        <p className="text-gray-700">{description}</p>
-      </div>
-    );
-  };
+  return (
+    <div className="bg-white p-6 rounded-lg relative ">
+      {image && (
+        <img
+          src={image}
+          className="w-8 h-8 mx-auto absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+          alt="Feature Icon"
+        />
+      )}
+      <h3 className="text-xl font-bold mb-4">{title}</h3>
+      <p className="text-gray-700">{description}</p>
+    </div>
+  );
+};
 
-
-export default FeatureSection
+export default FeatureSection;
