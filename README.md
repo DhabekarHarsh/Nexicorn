@@ -1,3 +1,14 @@
+![image](https://github.com/DhabekarHarsh/Nexicorn/assets/86256300/00a3e719-4c0b-4a47-b76f-4cca40998d0d)
+![image](https://github.com/DhabekarHarsh/Nexicorn/assets/86256300/6f1e418d-8b70-4b34-87e8-a75fa5e4e30e)
+![image](https://github.com/DhabekarHarsh/Nexicorn/assets/86256300/4125dbf7-577c-4485-9d58-cfac7d6fe1e6)
+![image](https://github.com/DhabekarHarsh/Nexicorn/assets/86256300/4b05cf7e-ace4-486b-ae2f-3114dd0042a6)
+![image](https://github.com/DhabekarHarsh/Nexicorn/assets/86256300/3c7b7f83-bd8d-49dc-9633-10f6faead7b2)
+![image](https://github.com/DhabekarHarsh/Nexicorn/assets/86256300/e64a41c8-be75-4afa-8ece-9b1faf55a9d2)
+![image](https://github.com/DhabekarHarsh/Nexicorn/assets/86256300/27e9c52d-3302-421d-9415-c7f4e865e934)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
