@@ -1,5 +1,7 @@
 import Button from "./Button";
-
+import images1 from '../Images/Feature1.png'
+import images2 from '../Images/Feature2.png'
+import images3 from '../Images/Feature3.png'
 const FeatureSection = () => {
     return (
         <>
@@ -16,7 +18,7 @@ const FeatureSection = () => {
 
         {/* Right side: Image */}
       <div className="md:w-1/2 order-first md:order-last">
-        <img src="your-image-url" className="w-full rounded-lg" alt="Feature Image" />
+        <img src={images1} className="w-full rounded-lg" alt="Feature Image" />
       </div>
       </div>
 
@@ -26,7 +28,7 @@ const FeatureSection = () => {
       <div className="container mx-auto py-12 px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center">
       {/* Left side: Image */}
       <div className="md:w-1/2 md:pr-8 mb-8 md:mb-0">
-        <img src="your-image-url" className="w-full rounded-lg" alt="Feature Image" />
+        <img src={images2} className="w-full rounded-lg" alt="Feature Image" />
       </div>
 
       {/* Right side: Text content */}
@@ -58,7 +60,7 @@ const FeatureSection = () => {
 
         {/* Right side: Image */}
       <div className="md:w-1/2 order-first md:order-last">
-        <img src="your-image-url" className="w-full rounded-lg" alt="Feature Image" />
+        <img src={images3} className="w-full rounded-lg" alt="Feature Image" />
       </div>
       </div>
 </>

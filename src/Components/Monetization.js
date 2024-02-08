@@ -1,12 +1,12 @@
 import React from 'react';
-
+import images from '../Images/Monetization.png'
 const Monetization = () => {
   return (
     <div className="bg-blue-50 py-12 px-4 sm:px-6 lg:px-8 mt-8 mx-6 rounded-lg"> {/* Added mx-4 for horizontal margin and rounded-lg for border curve */}
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center">
         {/* Left side: Image */}
         <div className="md:w-1/2 mb-8 md:mb-0">
-          <img src="your-image-url" className="w-full rounded-lg" alt="Feature Image" />
+          <img src={images} className="w-full rounded-lg" alt="Feature Image" />
         </div>
 
         {/* Right side: Text content */}
